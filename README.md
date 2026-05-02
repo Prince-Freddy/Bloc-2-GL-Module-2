@@ -1,5 +1,3 @@
----
-
  Analyse de code – Bloc 2, Module 1
 Projet : "Le code que tu n'as pas écrit"
 
@@ -21,9 +19,8 @@ Dans la seconde phase, nous avons annoté et analysé le code. Nous avons cherch
 Phase 3 : Rapport et présentation
 Enfin, nous avons rédigé un rapport détaillé et préparé une présentation orale :
 Le rapport : Décrit le code, liste les problèmes rencontrés et propose des approches de solution.
-*   La présentation : Permet de partager notre démarche et de montrer un extrait du code annoté en direct.
+La présentation : Permet de partager notre démarche et de montrer un extrait du code annoté en direct.
 
----
 
 Règles de travail et Organisation
 Travail d'équipe : Nous avons travaillé en groupe de manière rotative. Chaque membre s'est occupé d'une partie du code, et une relecture globale a été effectuée par l'ensemble du groupe.
