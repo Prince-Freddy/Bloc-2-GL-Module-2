@@ -1,12 +1,12 @@
 ---
 
-# 📂 Analyse de code – Bloc 2, Module 1
-## Projet : "Le code que tu n'as pas écrit"
+ Analyse de code – Bloc 2, Module 1
+Projet : "Le code que tu n'as pas écrit"
 
-### 📌 Présentation du projet
-*   **Objectif :** Documenter et expliquer le code HTML et CSS écrit par un stagiaire.
-*   **Cadre :** Académie.
-*   **Problématique :** Ce projet permettra à l'agence **DevStart** de comprendre et d'en savoir plus sur le travail effectué par le stagiaire afin de faciliter une éventuelle reprise du code par l'équipe.
+📌 Présentation du projet
+Objectif : Documenter et expliquer le code HTML et CSS écrit par un stagiaire.
+Cadre :Académie.
+Problématique : Ce projet permettra à l'agence **DevStart** de comprendre et d'en savoir plus sur le travail effectué par le stagiaire afin de faciliter une éventuelle reprise du code par l'équipe.
 
 
  Démarche méthodologique
@@ -25,15 +25,15 @@ Le rapport : Décrit le code, liste les problèmes rencontrés et propose des ap
 
 ---
 
-👥 Règles de travail et Organisation
+Règles de travail et Organisation
 Travail d'équipe : Nous avons travaillé en groupe de manière rotative. Chaque membre s'est occupé d'une partie du code, et une relecture globale a été effectuée par l'ensemble du groupe.
-*   **Communication :** Utilisation d'outils collaboratifs tels que **WhatsApp** et **Discord**.
-*   **Suivi technique :** Nous avons effectué des **commits réguliers** sur Git pour retracer notre progression.
-*   **Respect des consignes :** Nous avons scrupuleusement respecté la consigne de ne pas modifier le code original, mais uniquement de l'annoter et de l'expliquer.
+Communication : Utilisation d'outils collaboratifs tels que **WhatsApp** et **Discord**.
+ Suivi technique :Nous avons effectué des **commits réguliers** sur Git pour retracer notre progression.
+Respect des consignes : Nous avons scrupuleusement respecté la consigne de ne pas modifier le code original, mais uniquement de l'annoter et de l'expliquer.
 
 ---
 
-### 📁 Organisation du dépôt
+📁 Organisation du dépôt
 *   `📂 /original` : Le code HTML/CSS brut du stagiaire.
 *   `📂 /annotated` : Le code enrichi de nos commentaires et analyses.
 *   `📂 /presentation` : Supports de la soutenance orale (slides).
