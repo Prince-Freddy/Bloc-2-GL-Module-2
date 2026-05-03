@@ -1,50 +1,103 @@
- Analyse de code – Bloc 2, Module 1
-Projet : "Le code que tu n'as pas écrit"
+# DevStart Agency — Site Web
 
-📌 Présentation du projet
-Objectif : Documenter et expliquer le code HTML et CSS écrit par un stagiaire.
-Cadre :Académie.
-Problématique : Ce projet permettra à l'agence **DevStart** de comprendre et d'en savoir plus sur le travail effectué par le stagiaire afin de faciliter une éventuelle reprise du code par l'équipe.
+## 📋 Informations du groupe
 
+**Bloc 2 — Génie Logiciel | Module 2 : Architecture logicielle & modularité**  
+**Académie de Programmation | IFRI — L1**  
+**Date : Dimanche 03 Mai 2026**
 
- Démarche méthodologique
-Notre travail s'est articulé autour de trois phases majeures :
+### Membres du Groupe 2
 
-Phase 1 : Exploration et compréhension
-Dans cette première phase, nous nous sommes contentés de lire entièrement le code pour comprendre le travail effectué par le stagiaire. Nous avons identifié les balises utilisées et la structure globale sans effectuer aucune modification.
-
-Phase 2 : Annotation et analyse critique
-Dans la seconde phase, nous avons annoté et analysé le code. Nous avons cherché à détecter les erreurs ou, plus simplement, à identifier tout ce qui aurait pu être amélioré (bonnes pratiques, optimisation CSS, sémantique HTML).
-
-Phase 3 : Rapport et présentation
-Enfin, nous avons rédigé un rapport détaillé et préparé une présentation orale :
-Le rapport : Décrit le code, liste les problèmes rencontrés et propose des approches de solution.
-La présentation : Permet de partager notre démarche et de montrer un extrait du code annoté en direct.
-
-
-Règles de travail et Organisation
-Travail d'équipe : Nous avons travaillé en groupe de manière rotative. Chaque membre s'est occupé d'une partie du code, et une relecture globale a été effectuée par l'ensemble du groupe.
-Communication : Utilisation d'outils collaboratifs tels que **WhatsApp** et **Discord**.
- Suivi technique :Nous avons effectué des **commits réguliers** sur Git pour retracer notre progression.
-Respect des consignes : Nous avons scrupuleusement respecté la consigne de ne pas modifier le code original, mais uniquement de l'annoter et de l'expliquer.
+| Nom & Prénom |
+|---|
+| DJOMAМOU Souviens Hosana Loth |
+| JOSSE Marianne Leslie |
+| ADJALLALA Agossi Melvine |
+| HOUETO Brian |
+| HOUNHOWAKOU Prince Freddy |
 
 ---
 
-📁 Organisation du dépôt
-*   `📂 /original` : Le code HTML/CSS brut du stagiaire.
-*   `📂 /annotated` : Le code enrichi de nos commentaires et analyses.
-*   `📂 /presentation` : Supports de la soutenance orale (slides).
-*   `📄 README.md` : Présentation de la démarche (ce fichier).
-*   `📄 rapport.pdf` : Analyse complète et pistes d'amélioration (5-8 pages).
+## 📌 Description du projet
+
+Ce dépôt contient le travail du **Module 2 — Découper pour mieux régner**. À partir de la page d'accueil du stagiaire (Module 1), notre groupe a conçu une **architecture logicielle modulaire** pour le site DevStart Agency, sans modifier le rendu visuel. L'objectif est simple : chaque fichier a une seule responsabilité, et la structure est pensée pour accueillir facilement trois nouvelles pages dans le futur — Portfolio, Blog et Espace Client.
 
 ---
 
-  Livrables
-*   [x] Rapport PDF (5–8 pages).
-*   [x] Dépôt GitHub public avec code original et annoté.
-*   [x] Présentation orale de 10 minutes (+ 5 min de questions).
+## 🌿 Branches du dépôt
 
+| Branche | Contenu |
+|---|---|
+| `main` | Code original du Module 1 — conservé intact, jamais modifié |
+| `module2` | Nouvelle architecture modulaire conçue par le groupe |
 
-Conclusion
-Ce projet nous a montré qu'il ne suffit pas de savoir écrire du code, il est tout aussi essentiel de savoir comprendre celui des autres. Nous avons appris à lire et à analyser un projet technique de manière structurée et utile pour une équipe de développement.
-*© 2026 - Projet Académique pour DevStart Agency*
+---
+
+## 🗂️ Structure des dossiers (branche `module2`)
+
+```
+DevStart/
+│
+├── Original/
+│   ├── index.html               ← Page d'accueil
+│   ├── portfolio.html           ← Page Portfolio (future)
+│   ├── blog.html                ← Page Blog (future)
+│   ├── espace-client.html       ← Espace Client (futur)
+│   │
+│   └── Assets/
+│       ├── Styles/              ← Styles communs à toutes les pages
+│       │   ├── base.css
+│       │   ├── header.css
+│       │   ├── hero.css
+│       │   ├── services.css
+│       │   ├── about.css
+│       │   ├── testimonials.css
+│       │   ├── contact.css
+│       │   └── footer.css
+│       │
+│       ├── Components/          ← Éléments réutilisables sur plusieurs pages
+│       │   ├── card.css
+│       │   └── button.css
+│       │
+│       ├── Pages/               ← Styles spécifiques à chaque future page
+│       │   ├── portfolio.css
+│       │   ├── blog.css
+│       │   └── espace-client.css
+│       │
+│       └── img/                 ← Ressources visuelles du site
+│           ├── hero.png
+│           └── team.png
+│
+└── README.md
+```
+
+---
+
+## 📁 Rôle de chaque fichier CSS
+
+| Fichier | Rôle |
+|---|---|
+| `base.css` | Reset général, couleurs globales et police du site |
+| `header.css` | Style de la barre de navigation |
+| `hero.css` | Style de la section d'accueil |
+| `services.css` | Style des cartes de services |
+| `about.css` | Style de la section À propos |
+| `testimonials.css` | Style des témoignages clients |
+| `contact.css` | Style du formulaire de contact |
+| `footer.css` | Style du pied de page |
+| `card.css` | Style réutilisable pour toutes les cartes |
+| `button.css` | Style réutilisable pour tous les boutons |
+| `portfolio.css` | Styles spécifiques à la page Portfolio |
+| `blog.css` | Styles spécifiques à la page Blog |
+| `espace-client.css` | Styles spécifiques à l'Espace Client |
+
+---
+
+## 🧠 Ce que cette architecture change concrètement
+
+| Avant (Module 1) | Après (Module 2) |
+|---|---|
+| 1 seul `style.css` pour tout le site | 1 fichier CSS par section et par page |
+| Difficile de savoir où chercher quand quelque chose bug | On sait immédiatement dans quel fichier se trouve le problème |
+| Modifier une section risque d'en casser une autre | Chaque fichier est isolé — aucun risque de conflit |
+| Un nouveau développeur met du temps à comprendre la structure | La structure se comprend en moins de 30 secondes |
